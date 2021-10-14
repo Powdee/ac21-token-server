@@ -10,3 +10,24 @@ This repo is only for creating CRUD operations with basic OAuth. A little showca
 * GET /users/{id}
 * POST /users
 * DELETE /users/{id}
+
+## Setup
+
+First, have PostgreSQL installed and running.
+
+Make sure you have `cargo` installed.
+
+Next, run in the terminal:
+```shell
+cargo run
+```
+
+When `run` has executed successfully, run the API to GET users:
+```shell
+curl -H "Authorization: Bearer $TOKEN" -v 127.0.0.1:8080/users
+```
+
+Or run the API to Create user:
+```shell
+curl -v -H "Content-Type: application/json; Authorization: Bearer $TOKEN"  -X POST -d '{"first_name": "foo1", "last_name": "bar1", "email": "foo1@bar.com"}' 127.0.0.1:8080/users
+```
