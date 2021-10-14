@@ -3,27 +3,6 @@
 version = 3
 
 [[package]]
-name = "ac21-token-server"
-version = "0.1.0"
-dependencies = [
- "actix-rt",
- "actix-service",
- "actix-web",
- "actix-web-httpauth",
- "alcoholic_jwt",
- "chrono",
- "derive_more",
- "diesel",
- "dotenv",
- "futures 0.3.17",
- "r2d2",
- "reqwest",
- "serde",
- "serde_derive",
- "serde_json",
-]
-
-[[package]]
 name = "actix-codec"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -156,6 +135,27 @@ dependencies = [
  "futures-util",
  "smallvec 1.7.0",
  "tokio 0.2.25",
+]
+
+[[package]]
+name = "actix-rust-OAuth"
+version = "0.1.0"
+dependencies = [
+ "actix-rt",
+ "actix-service",
+ "actix-web",
+ "actix-web-httpauth",
+ "alcoholic_jwt",
+ "chrono",
+ "derive_more",
+ "diesel",
+ "dotenv",
+ "futures 0.3.17",
+ "r2d2",
+ "reqwest",
+ "serde",
+ "serde_derive",
+ "serde_json",
 ]
 
 [[package]]
