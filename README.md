@@ -5,11 +5,19 @@ Rust has picked up a lot of momentum since we last looked at it in 2015. Compani
 I was about to start a new project on Cardano blockchain and we need simple CRUD operations with Database of users and products and create a portal to communicate with Cardano blockchain.
 This repo is only for creating CRUD operations with basic OAuth. A little showcase how `Rust` works on `actix-web` framework.
 
-## RESTful API CRUD Operations
+## RESTful API
+```shell
 * GET /users
+```
+```shell
 * GET /users/{id}
+```
+```shell
 * POST /users
+```
+```shell
 * DELETE /users/{id}
+```
 
 ## Setup
 
